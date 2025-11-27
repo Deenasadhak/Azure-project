@@ -1,0 +1,9 @@
+{
+	"name": "deena",
+	"location": "eastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3b27314-26da-4391-85c2-0118b5db271a",
+		"tenantId": "e14e73eb-5251-4388-8d67-8f9f2e2d5a46"
+	}
+}
