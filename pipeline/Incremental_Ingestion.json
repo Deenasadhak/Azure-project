@@ -36,6 +36,20 @@
 						}
 					}
 				}
+			},
+			{
+				"name": "current_timestamp",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "current",
+					"value": "@utcNow()\n"
+				}
 			}
 		],
 		"parameters": {
@@ -50,6 +64,11 @@
 			},
 			"from_date": {
 				"type": "string"
+			}
+		},
+		"variables": {
+			"current": {
+				"type": "String"
 			}
 		},
 		"annotations": []
